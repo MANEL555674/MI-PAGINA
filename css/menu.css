@@ -119,6 +119,40 @@ p.parrafo3{
 	 /*float: right;
 	 float: left; left | right | none */
 }
-
+*{margin: 0;
+padding: 0; /*Espacio entre el contenido del elemento y su borde*/
+-webkit-box-sizing: border-box; /*Calcular las medidas de un elemento */
+-moz-box-sizing: border-box;
+box-sizing: border-box;	
+}
+/*tabla*/
+#tabla{
+	margin: 150px auto;
+	width: 600px; 
+	float: center; /*ubica un elemento en su contenedor según la posición dada*/
+}
+table{ 
+background-color: white;
+text-align: left;
+border-collapse:collapse; /*Fusionar los bordes*/ 
+width: 100%;
+ }
+ th, td{
+	 border: solid 1px black;
+	 padding: 5px; 
+ }
+ thead{/*Bloque de filas*/
+ background-color: #246355; 
+ border-bottom: solid 5px #0F362D; /*Establece el estilo del borde inferior deun elemento, se define el estilo, grosor y color*/
+ color: white; 
+ }
+ tr:nth-child(even){ /*Selección de varios elementos hijo, Selección de una linea y otra no*/ 
+ background-color: #ddd;
+ }
+ tr:hover td{ /*Al seleccionar una fila colorea el espacio y la letra la pasa a blanco*/
+ background-color:# 369681;
+ color: white; 
+ 
+	 
 	 
 
